@@ -13,6 +13,8 @@ The goal of this project is to create a system that accurately detects and under
 - **Song Recommendations:** The system suggests songs based on the detected emotions to uplift the user's mood and provide emotional support. The song recommendations are curated to align with the user's emotional state, aiming to create a positive and soothing experience.
 - **Emotion Tracking:** The system maintains a log of emotions with timestamps, allowing for tracking and analysis of emotional patterns over time. This feature enables healthcare professionals to assess an individual's emotional well-being during subsequent appointments, providing insights into their emotional journey and progress.
 
+![AI-Therapist]([path/to/image.png](https://github.com/AdityaPatil-AP/AI-Therapist/blob/main/Documentation/System_Workflow.jpeg))
+
 ## System Workflow
 
 1. **User Input:** The user writes about their day and the incidents that occurred, along with their feelings about those incidents.
