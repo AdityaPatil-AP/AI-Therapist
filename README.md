@@ -8,27 +8,27 @@ The goal of this project is to create a system that accurately detects and under
 
 ## Features
 
-- **Emotion Detection:** The system utilizes bidirectional LSTM networks and NLP techniques to accurately detect emotions expressed in text input. We explored other machine learning models such as Random Forests, Decision Tree Model, and Support Vector Machines, but found that the bidirectional LSTM model provided the best accuracy and performance.
-- **Customized Solutions:** Based on the detected emotions, the system provides personalized advice and guidance to address the user's emotional state. The solutions are tailored to the specific emotions expressed in the input text, allowing for a more effective and empathetic response.
-- **Song Recommendations:** The system suggests songs based on the detected emotions to uplift the user's mood and provide emotional support. The song recommendations are curated to align with the user's emotional state, aiming to create a positive and soothing experience.
-- **Emotion Tracking:** The system maintains a log of emotions with timestamps, allowing for tracking and analysis of emotional patterns over time. This feature enables healthcare professionals to assess an individual's emotional well-being during subsequent appointments, providing insights into their emotional journey and progress.
+- ****Emotion Detection:**** The system utilizes bidirectional LSTM networks and NLP techniques to accurately detect emotions expressed in text input. We explored other machine learning models such as Random Forests, Decision Tree Model, and Support Vector Machines, but found that the bidirectional LSTM model provided the best accuracy and performance.
+- ****Customized Solutions:**** Based on the detected emotions, the system provides personalized advice and guidance to address the user's emotional state. The solutions are tailored to the specific emotions expressed in the input text, allowing for a more effective and empathetic response.
+- ****Song Recommendations:**** The system suggests songs based on the detected emotions to uplift the user's mood and provide emotional support. The song recommendations are curated to align with the user's emotional state, aiming to create a positive and soothing experience.
+- ****Emotion Tracking:**** The system maintains a log of emotions with timestamps, allowing for tracking and analysis of emotional patterns over time. This feature enables healthcare professionals to assess an individual's emotional well-being during subsequent appointments, providing insights into their emotional journey and progress.
 
 ![AI-Therapist](https://github.com/AdityaPatil-AP/AI-Therapist/blob/main/Documentation/System_Workflow.jpeg)
 
 ## System Workflow
 
-1. **User Input:** The user writes about their day and the incidents that occurred, along with their feelings about those incidents.
-2. **Emotion Detection:** The AI Therapist model, powered by bidirectional LSTM networks and NLP techniques, processes the input text and accurately detects the expressed emotions. This model was chosen for its ability to capture context and dependencies in sequential data, making it well-suited for analyzing text-based emotional expression.
-3. **Emotion Log:** The system simultaneously stores the log of emotions, enabling future assessments by healthcare professionals during subsequent appointments. The log includes timestamps, allowing for chronological tracking of emotional patterns and progress over time.
-4. **OpenAI Integration:** The system is integrated with the OpenAI API, which provides appropriate solutions and recommendations if the user is not feeling well based on the output of the AI Therapist model. This integration enhances the system's language capabilities and provides detailed explanations and practical guidance to users.
-5. **Continuous Monitoring:** The system ensures ongoing monitoring of individuals' emotional well-being through the combination of emotion tracking and personalized interventions. By analyzing the emotion log and providing tailored solutions, the system supports individuals in improving their emotional well-being.
+1. ****User Input:**** The user writes about their day and the incidents that occurred, along with their feelings about those incidents.
+2. ****Emotion Detection:**** The AI Therapist model, powered by bidirectional LSTM networks and NLP techniques, processes the input text and accurately detects the expressed emotions. This model was chosen for its ability to capture context and dependencies in sequential data, making it well-suited for analyzing text-based emotional expression.
+3. ****Emotion Log:**** The system simultaneously stores the log of emotions, enabling future assessments by healthcare professionals during subsequent appointments. The log includes timestamps, allowing for chronological tracking of emotional patterns and progress over time.
+4. ****OpenAI Integration:**** The system is integrated with the OpenAI API, which provides appropriate solutions and recommendations if the user is not feeling well based on the output of the AI Therapist model. This integration enhances the system's language capabilities and provides detailed explanations and practical guidance to users.
+5. ****Continuous Monitoring:**** The system ensures ongoing monitoring of individuals' emotional well-being through the combination of emotion tracking and personalized interventions. By analyzing the emotion log and providing tailored solutions, the system supports individuals in improving their emotional well-being.
 
 ## Tools and Technologies Used
 
-- **Programming Language:** Python
-- **Machine Learning Models:** Bidirectional LSTM, Random Forests, Decision Tree Model, Support Vector Machines
-- **NLP Techniques:** GLoVe (Global Vectors for Word Representation)
-- **API:** OpenAI
+- ****Programming Language:**** Python
+- ****Machine Learning Models:**** Bidirectional LSTM, Random Forests, Decision Tree Model, Support Vector Machines
+- ****NLP Techniques:**** GLoVe (Global Vectors for Word Representation)
+- ****API:**** OpenAI
 
 ## Installation and Usage
 
