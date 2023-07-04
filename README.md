@@ -25,6 +25,16 @@ The goal of this project is to create a system that accurately detects and under
 4. ****OpenAI Integration:**** The system is integrated with the OpenAI API, which provides appropriate solutions and recommendations if the user is not feeling well based on the output of the AI Therapist model. This integration enhances the system's language capabilities and provides detailed explanations and practical guidance to users.
 5. ****Continuous Monitoring:**** The system ensures ongoing monitoring of individuals' emotional well-being through the combination of emotion tracking and personalized interventions. By analyzing the emotion log and providing tailored solutions, the system supports individuals in improving their emotional well-being.
 
+<p align="center">
+  <img src="https://github.com/AdityaPatil-AP/AI-Therapist/blob/main/Documentation/LSTM_Model.png">
+</p>
+
+## Training and Validation accuracy Graph
+
+<p align="center">
+  <img src="https://github.com/AdityaPatil-AP/AI-Therapist/blob/main/Documentation/Training_Accuracy.png">
+</p>
+
 ## Tools and Technologies Used
 
 - ****Programming Language:**** Python
